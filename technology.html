@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="technologystyle.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <header>
+    <div class="icon">
+      <img src="./assets/shared/logo.svg" alt="">
+      
+    </div>
+    <div class="line"></div>
+    <div class="navbar">
+      <ul>
+        <li><a href="./index.html"><b>00</b> Home</a></li>
+        <li><a href="./destination.html"><b>01</b> Destination</a></li>
+        <li><a href="./crew.html"><b>02</b> Crew</a></li>
+        <li><a href="./technology.html" class="active"><b>03</b> Technology</a></li>
+      </ul>
+    </div>
+    <div class="navbar-collapse">
+      <img class="hamburger" src="./assets/shared/icon-hamburger.svg" alt="hamburger menu icon">
+      <img class="close" src="./assets/shared/icon-close.svg" alt="close menu icon">
+    </div>
+  </header>
+  <div class="main-section">
+    <div class="content">
+      <div class="main-header">
+        <span class="number">03<span class="title">Space Launch 101</span></span>
+      </div>
+    </div>
+    <br>
+    <div class="tabs">
+      <nav>
+        <ul>
+            <li id="launch" class="active-tab">1</li>
+            <li id="spaceport">2</li>
+            <li id="capsule">3</li>
+        </ul>
+      </nav>
+      <div class="tech">
+        <div class='tech-container'>
+            <div class="info">
+              <h1 class="title-name">LAUNCH VEHICLE</h1>
+              <p class="description">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+            </div>
+            <div class="image" >
+              <img id="tech-img" width="350px" height="370px" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="image of the launch vehicle">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/hamburger.js"></script>
+  <script src="./js/technology.js"></script>
+</body>
+</html>

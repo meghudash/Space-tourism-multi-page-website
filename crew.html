@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="crewstyle.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <header>
+    <div class="icon">
+      <img src="./assets/shared/logo.svg" alt="">
+      
+    </div>
+    <div class="line"></div>
+    <div class="navbar">
+      <ul>
+        <li><a href="./index.html"><b>00</b> Home</a></li>
+        <li><a href="./destination.html"><b>01</b> Destination</a></li>
+        <li><a href="./crew.html" class="active"><b>02</b> Crew</a></li>
+        <li><a href="./technology.html"><b>03</b> Technology</a></li>
+      </ul>
+    </div>
+    <div class="navbar-collapse">
+      <img class="hamburger" src="./assets/shared/icon-hamburger.svg" alt="hamburger menu icon">
+      <img class="close" src="./assets/shared/icon-close.svg" alt="close menu icon">
+    </div>
+  </header>
+  <div class="main-section">
+    <div class="content">
+      <div class="main-header">
+        <span class="number">02<span class="title">Meet Your Crew</span></span>
+      </div>
+    </div>
+    <br>
+    <div class="crew">
+      <div class='crew-container'>
+          <div class="info">
+            <h1 class="title-name">COMMANDER</h1>
+            <h1 class="name">DOUGLAS HURLEY</h1>
+            <p class="description">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut.
+               He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+          </div>
+      </div>
+    </div>
+    <div class="tabs">
+      <nav>
+        <ul>
+            <li id="douglas" class="active-tab"></li>
+            <li id="mark"></li>
+            <li id="victor"></li>
+            <li id="anousheh"></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="image">
+      <img id="crew-img" width="300px" height="300px" src="./assets/crew/image-douglas-hurley.png" alt="image of the douglas hurley">
+    </div>
+  </div>
+  <script src="./js/crew.js"></script>
+  <script src="./js/hamburger.js"></script>
+</body>
+</html>
