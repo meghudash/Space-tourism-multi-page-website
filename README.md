@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/meghudash/Space-tourism-multi-page-website/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/meghudash/Space-tourism-multi-page-website](https://github.com/meghudash/Space-tourism-multi-page-website/)
+- Live Site URL: [https://meghudash.github.io/Space-tourism-multi-page-website/](https://your-live-site-url.com)
 
 ## My process
 
@@ -48,6 +48,6 @@ Users should be able to:
 
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/meghudash)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/meghudash](https://www.frontendmentor.io/profile/meghudash)
 
 
